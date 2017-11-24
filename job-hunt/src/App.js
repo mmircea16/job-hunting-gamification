@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Button } from 'reactbulma'
+import {NameQuestion} from "./components/NameQuestion";
 
 // react-dom (what we'll use here)
 import { BrowserRouter, Link, Route } from 'react-router-dom'
@@ -15,8 +16,7 @@ class App extends Component {
         <p className="App-intro">
           Before you start you need to read about how to get ready for employment. Once you've done that please go further
         </p>
-          <Link to="/question"><Button primary>Continue</Button></Link>
-
+          <Link to="/name_question"><Button primary>Continue</Button></Link>
       </div>
     );
   }
@@ -37,7 +37,7 @@ class RoutedApp extends Component {
                 {/*</nav>*/}
                 <div>
                     <Route exact path="/" component={App}/>
-                    <Route path="/question" component={Question}/>
+                    <Route exact path="/name_question" component={NameQuestion}/>
                 </div>
             </div>
         </BrowserRouter>
