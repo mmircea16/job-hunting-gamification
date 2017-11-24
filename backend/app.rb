@@ -21,10 +21,28 @@ end
 put '/applicant' do
   request.body.rewind
   request_payload = JSON.parse request.body.read
-  doc = { name: request_payload["name"]}
+  doc = {name: request_payload["name"]}
 
   collection = client[:applicant]
   res = collection.insert_one(doc)
   "Done #{res.n}"
 end
 
+post '/applicant/:name' do
+  name = params[:name]
+  request.body.rewind
+  request_payload = JSON.parse(request.body.read, :symbolize_names => true)
+
+  collection = client[:applicant]
+  puts request_payload
+  result = collection.update_one({'name' => name},
+                                 {'$addToSet' => {
+                                     'questions' =>
+                                         {'questionId' => request_payload[:question],
+                                          'answer' => request_payload[:answer]
+                                         }
+                                 }})
+
+
+  "Done #{result.modified_count}"
+end
