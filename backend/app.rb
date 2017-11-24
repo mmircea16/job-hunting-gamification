@@ -46,3 +46,11 @@ post '/applicant/:name' do
 
   "Done #{result.modified_count}"
 end
+
+post '/opportunity' do
+  request.body.rewind
+  opportunity = JSON.parse(request.body.read, :symbolize_names => true) 
+  collection =  client[:opportunity]
+  res = collection.insert_one(opportunity);
+  "{'message' : 'opportunity added successfully', 'id': #{res.n}}".to_json 
+end
