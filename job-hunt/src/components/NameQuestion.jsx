@@ -31,7 +31,7 @@ export class NameQuestion extends Component {
                     <Card>
                         <Card.Content><div>What's your name?</div>
                             <Field>
-                            <Input id="nameInput" onChange={this.handleChange}/>
+                            <Input id="nameInput" onChange={this.handleChange()}/>
                             </Field>
                             <Button primary onClick={this.postName}>Continue</Button>
                         </Card.Content>
