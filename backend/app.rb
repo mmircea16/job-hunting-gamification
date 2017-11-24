@@ -18,3 +18,13 @@ get '/opportunity' do
   collection.find.to_a.to_json
 end
 
+put '/applicant' do
+  request.body.rewind
+  request_payload = JSON.parse request.body.read
+  doc = { name: request_payload["name"]}
+
+  collection = client[:applicant]
+  res = collection.insert_one(doc)
+  "Done #{res.n}"
+end
+
