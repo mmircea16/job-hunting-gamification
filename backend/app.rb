@@ -1,12 +1,27 @@
 require 'sinatra'
 require 'mongo'
 require 'json'
+require 'sinatra/cross_origin'
+
+configure do
+  enable :cross_origin
+end
+
+set :allow_methods, [:get, :post, :put, :options]
 
 PASSWORD=ENV['PASS']
 CONNECTION_STRING="mongodb://admin:#{PASSWORD}@jobhunting-shard-00-00-v8klp.mongodb.net:27017,jobhunting-shard-00-01-v8klp.mongodb.net:27017,jobhunting-shard-00-02-v8klp.mongodb.net:27017/test?ssl=true&replicaSet=JobHunting-shard-0&authSource=admin"
 
 client = Mongo::Client.new(CONNECTION_STRING).use("jobHunting")
 db = client.database
+
+options "*" do
+  response.headers["Allow"] = "HEAD,GET,PUT,POST,DELETE,OPTIONS"
+
+  response.headers["Access-Control-Allow-Headers"] = "X-Requested-With, X-HTTP-Method-Override, Content-Type, Cache-Control, Accept"
+
+  200
+end
 
 get '/' do
   puts db.collections.size

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="86a55dcc-879d-4064-b4b4-6793059ca6fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/Gemfile" afterPath="$PROJECT_DIR$/backend/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/app.rb" afterPath="$PROJECT_DIR$/backend/app.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/job-hunt/src/components/NameQuestion.jsx" afterPath="$PROJECT_DIR$/job-hunt/src/components/NameQuestion.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="171">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -27,8 +29,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job-hunt/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="360">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -36,12 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NameQuestion.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NameQuestion.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job-hunt/src/components/NameQuestion.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="304">
+              <caret line="16" column="77" lean-forward="false" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,10 +56,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1511534418427" expanded="true" signature="32264:32306" ph="..." />
-                <marker date="1511534418427" expanded="true" signature="32264:32324" ph="..." />
-                <marker date="1511534418427" expanded="true" signature="32264:32337" ph="..." />
-                <marker date="1511534418427" expanded="true" signature="32264:32352" ph="..." />
+                <marker date="1511535998621" expanded="true" signature="33263:33280" ph="..." />
+                <marker date="1511535998621" expanded="true" signature="33263:33298" ph="..." />
+                <marker date="1511535998621" expanded="true" signature="33263:33311" ph="..." />
+                <marker date="1511535998621" expanded="true" signature="33263:33326" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,8 +120,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="57">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -131,6 +135,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/job-hunt/src/components/NameQuestion.jsx" />
+        <option value="$PROJECT_DIR$/backend/Gemfile" />
         <option value="$PROJECT_DIR$/backend/app.rb" />
       </list>
     </option>
@@ -323,10 +329,18 @@
       <workItem from="1511530869044" duration="236000" />
       <workItem from="1511531544323" duration="43000" />
     </task>
+    <task id="LOCAL-00001" summary="Added basic question">
+      <created>1511534436335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511534436335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322000" />
+    <option name="totallyTimeSpent" value="1920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -397,6 +411,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added basic question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -490,10 +508,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1511534418427" expanded="true" signature="32264:32306" ph="..." />
-            <marker date="1511534418427" expanded="true" signature="32264:32324" ph="..." />
-            <marker date="1511534418427" expanded="true" signature="32264:32337" ph="..." />
-            <marker date="1511534418427" expanded="true" signature="32264:32352" ph="..." />
+            <marker date="1511535998621" expanded="true" signature="33263:33280" ph="..." />
+            <marker date="1511535998621" expanded="true" signature="33263:33298" ph="..." />
+            <marker date="1511535998621" expanded="true" signature="33263:33311" ph="..." />
+            <marker date="1511535998621" expanded="true" signature="33263:33326" ph="..." />
           </folding>
         </state>
       </provider>
@@ -514,36 +532,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Gemfile">
+    <entry file="file://$PROJECT_DIR$/job-hunt/src/components/NameQuestion.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="16" column="77" lean-forward="false" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app.rb">
+    <entry file="file://$PROJECT_DIR$/backend/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/job-hunt/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="360">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job-hunt/src/components/NameQuestion.jsx">
+    <entry file="file://$PROJECT_DIR$/backend/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
